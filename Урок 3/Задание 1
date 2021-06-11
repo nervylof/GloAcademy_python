@@ -1,0 +1,7 @@
+print ('Glo Academy')
+print ('Glo', end=' ')
+print ('Academy')
+print ('Glo', 'Academy')
+print ('Glo','Academy', sep='HELLo')
+print ('G', 'l', 'o', sep='', end=' ')
+print ('A','c', 'a','d','e','m','y', sep='')
