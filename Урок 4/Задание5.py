@@ -1,0 +1,8 @@
+time = int(input())
+hour = (time // 60 // 60)
+minuts = ((time // 60) % 60)
+seconds = (time % 60) 
+#print (hour)
+#print (minuts)
+#print (num3)
+print(time, 'секунд - это', hour, 'час', minuts, 'минут', seconds, 'секунд')
