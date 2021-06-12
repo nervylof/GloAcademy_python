@@ -1,0 +1,6 @@
+num = int(input())
+one = (num // 1000)
+two = ((num // 100) % 10)
+three = ((num // 10) % 10)
+four = ((num % 1000) % 10)
+print('У числа', num, 'максимальная цифра равна', max(one, two, three, four))
